@@ -1,9 +1,18 @@
+/**
+ * @author Inés García Ortiz
+ * 
+ * This script creates a description table of a exonic gene panel based on the output of codons.js (.bed file).
+ * By turning the data into objects, it takes the 'gene.symbol', 'accession.number', 'exon.number', 'startcDNA',
+ * 'endcDNA', 'startcodon' and 'endcodon'.
+ * The input has to be semicolon separated.  
+ */
+
 //import data packages
 const fs = require( 'fs' );
 const path = require( 'path' );
 
 //place the input, read synchronised and split every different amplicon by enter key
-const rawData = fs.readFileSync( path.resolve( __dirname, 'OCA_codons.bed' ) ).toString().split( '\n' );
+const rawData = fs.readFileSync( path.resolve( __dirname, 'xxxxxxx.bed' ) ).toString().split( '\n' );
 //change the input headers to an standard way, separating by '_', and separate each header by semicolon
 const currentHeaders = rawData[0].toLowerCase().replace( /-/g, '.' ).replace( /\s/g, '.' ).replace( /\./g, '_' ).split( ';' );
 //declaration of headers of final output
