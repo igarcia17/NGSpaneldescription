@@ -1,6 +1,6 @@
 # NGSpaneldescription
 ## NGS gene panel description from .bed file into PALGA style table
-###### Inés García, Ronald van Eijk Department of Pathology, Leiden University Medical Centre, P.O. Box 9600 L1-Q2300 RC, Leiden, the Netherlands
+###### Inés García Ortiz, Ronald van Eijk Department of Pathology, Leiden University Medical Centre, P.O. Box 9600 L1-Q2300 RC, Leiden, the Netherlands
 
 To describe a gene panel form a .bed file to a description table with gene symbol, RefSeq accession number, coding exon, cDNA coordinates and covered codons, it is necessary to:
 - Obtain a reference exome (see folder).
