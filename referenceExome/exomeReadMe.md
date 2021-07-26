@@ -10,3 +10,5 @@ Both outputs (.json files) are run with referenceExome.js to get a new file with
 a custom track for UCSC Genome Browser can be obtained by deleting the last two columns.
 
 The cDNA coordinates of the exome are obtained by running this file in cDNAexome.js
+
+Correction: if there is any name in the transcript ID list that is not present in the gff3 file, it won't be transfered to the preferred exome file. It is recommended to check this on IGV.
