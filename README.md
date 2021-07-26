@@ -7,6 +7,6 @@ To describe a gene panel form a .bed file to a description table with gene symbo
 -  Obtain a reference exome (see folder).
 - Get the exonic regions of the gene panel and associate to gene symbol
 - Run exonic panel and cDNA exome with **codons.js** to obtain the coding exon, cDNA coordinates and covered codons.
-- Run codons.js output with **PALGAtable.js**.
+- Run codons.js output with **descriptionTable.js**.
 
 Input specifications of each script are described in themselves.
