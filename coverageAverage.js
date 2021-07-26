@@ -1,3 +1,13 @@
+/**
+ * @author Inés García Ortiz
+ * 
+ * This script calculates the average number of reads of a certain set of 
+ * amplicons based on a table with the amplicon name, the run identifier and the number of reads of it in that run.
+ * It has to be a .txt, tab separated.
+ * It shouldn't contain any headers.
+ */
+
+
 const fs = require( 'fs' );
 const path = require( 'path' );
 
