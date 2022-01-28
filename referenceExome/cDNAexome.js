@@ -13,10 +13,7 @@
  * 
  * Files coma separed would be not considerated
  * 
- * This script is prepared to specifically process the data from intersection between 
- * 'knownGene-> coding exons' and 'knownCanonical' UCSC tracks by bedtools. It doesn't contain headers, but
- * the data must be structured as chromosome, startDNA, endDNA, gene symbol, exonNumber and strand,
- * even if exonNumber input information won't be considered.
+ * This script is prepared to specifically process the output from referenceExome.js
  * 
  */
 
