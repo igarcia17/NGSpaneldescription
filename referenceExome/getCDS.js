@@ -1,7 +1,7 @@
 /**
  * @author Ines García Ortiz
  *
- * This scripts converts CDS items from GCF_000001405.25_GRCh37.p13_genomic.gff3 into objects and converts them into a .json
+ * This scripts converts CDS items from GCF_000001405.25_GRCh37.p13_genomic.gff3 into objects and saves them into a .json
  *
  */
 // call to the libraries
